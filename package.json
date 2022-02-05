@@ -1,0 +1,36 @@
+{
+    "name": "util-escape",
+    "version": "1.0.0",
+    "description": "Lean JS function to escape unsafe characters from a text",
+    "main": "util-escape.js",
+    "module": "util-escape.js",
+    "type": "module",
+    "keywords": [
+        "module"
+    ],
+    "scripts": {
+        "fix:js": "eslint --fix .",
+        "fix:format": "prettier --write .",
+        "test": "mocha --reporter spec",
+        "build": "npm run test && npm run fix:js && npm run fix:format"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/salemjs/util-escape.git"
+    },
+    "author": "Sandor Huszagh <support@salemjs.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/salemjs/util-escape/issues",
+        "email": "support@salemjs.com"
+    },
+    "homepage": "https://salemjs.com",
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.24.2",
+        "prettier": "2.3.2",
+        "chai": "^4.3.4",
+        "mocha": "^9.1.1"
+    }
+}

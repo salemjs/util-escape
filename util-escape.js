@@ -1,5 +1,4 @@
 /**
- * @async
  * @public {function}
  * @param {String} text
  * @return {String}

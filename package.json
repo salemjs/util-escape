@@ -1,7 +1,7 @@
 {
     "name": "util-escape",
     "version": "1.0.0",
-    "description": "Lean JS function to escape unsafe characters from a text",
+    "description": "Lean JS module to escape unsafe characters from a text",
     "main": "util-escape.js",
     "module": "util-escape.js",
     "type": "module",

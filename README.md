@@ -1,6 +1,6 @@
 # util-escape
 
-Lean JS function to escape unsafe characters from a text
+Lean JS module to escape unsafe characters from a text
 
 ## Usage
 
